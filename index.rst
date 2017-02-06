@@ -3,17 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Balalaika's documentation!
+Документация проекта "Балалайка"
 =====================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Содержание:
 
+   module_bno055
    module_tmp112_rs485
+   module_max3010x
 
-
-Indices and tables
+Индекс
 ==================
 
 * :ref:`genindex`
