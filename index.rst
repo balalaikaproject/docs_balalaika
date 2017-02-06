@@ -10,6 +10,7 @@ Welcome to Balalaika's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   module_tmp112_rs485
 
 
 Indices and tables
