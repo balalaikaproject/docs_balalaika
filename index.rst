@@ -10,6 +10,7 @@
    :maxdepth: 2
    :caption: Содержание:
 
+   protocol
    module_bno055
    module_tmp112_rs485
    module_max3010x
