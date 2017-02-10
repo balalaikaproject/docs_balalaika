@@ -130,20 +130,17 @@
 
 В результате выполнения данной функции контрольная сумма записывается в последний байт пакета.
 
-  .. code:: c
-    void NDK_CalcCheckSumForPacket(uint8_t * packet, uint8_t len) 
-    {
-        uint8_t checkSum = 0x00;
-
-	for (uint8_t i = 0; i < len - 1; i++) 
-        {
-	    checkSum += *packet;
-	    packet++;
-	}
-
-	*packet = checkSum;
+.. code:: c
+  void NDK_CalcCheckSumForPacket(uint8_t * packet, uint8_t len) 
+  {
+      uint8_t checkSum = 0x00;
+      for (uint8_t i = 0; i < len - 1; i++) 
+      {
+	  checkSum += *packet;
+	  packet++;
+      }
+      *packet = checkSum;
     }
-
 
 =============================
 Формат запроса для команд
