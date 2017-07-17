@@ -15,6 +15,7 @@
    module_tmp112_rs485
    module_max3010x
    system_balalaika
+   neurodevice
 
 Индекс
 ==================
